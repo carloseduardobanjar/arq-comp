@@ -62,7 +62,7 @@ selection: #Base do vetor = $a0, tamanho = $a1
 		 addi $sp, $sp, 12
 		 #A = troca(A,i,indiceMenor)
 	 else2:
-	 addi $s0,$s0,1 # Incremento i
+	 addi $s0,$s0,1 # Incremento id
 	 j loop1
 exit:
 jr $ra
